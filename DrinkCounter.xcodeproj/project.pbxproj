@@ -13,6 +13,7 @@
 		0ABD6F39275DDF0D005A7B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD6F37275DDF0D005A7B29 /* Main.storyboard */; };
 		0ABD6F3B275DDF16005A7B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD6F3A275DDF16005A7B29 /* Assets.xcassets */; };
 		0ABD6F3E275DDF16005A7B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD6F3C275DDF16005A7B29 /* LaunchScreen.storyboard */; };
+		0ABD6F4B275E77D6005A7B29 /* IntroScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD6F4A275E77D6005A7B29 /* IntroScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0ABD6F3A275DDF16005A7B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABD6F3D275DDF16005A7B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ABD6F3F275DDF16005A7B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABD6F4A275E77D6005A7B29 /* IntroScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				0ABD6F31275DDF0D005A7B29 /* AppDelegate.swift */,
 				0ABD6F33275DDF0D005A7B29 /* SceneDelegate.swift */,
+				0ABD6F4A275E77D6005A7B29 /* IntroScreenViewController.swift */,
 				0ABD6F35275DDF0D005A7B29 /* ViewController.swift */,
 				0ABD6F37275DDF0D005A7B29 /* Main.storyboard */,
 				0ABD6F3A275DDF16005A7B29 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABD6F36275DDF0D005A7B29 /* ViewController.swift in Sources */,
+				0ABD6F4B275E77D6005A7B29 /* IntroScreenViewController.swift in Sources */,
 				0ABD6F32275DDF0D005A7B29 /* AppDelegate.swift in Sources */,
 				0ABD6F34275DDF0D005A7B29 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,7 +288,6 @@
 		0ABD6F43275DDF16005A7B29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2Y45FY4FN;
@@ -303,7 +306,6 @@
 		0ABD6F44275DDF16005A7B29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2Y45FY4FN;
